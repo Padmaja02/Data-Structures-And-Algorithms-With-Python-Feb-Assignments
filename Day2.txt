@@ -1,0 +1,15 @@
+# Qustion 1
+Time Complexity - O(N) or O(M) whichever value is higher
+Space Complexity - O(1)
+
+# Qustion 2
+b)X will be a better choice for all inputs except possibly small inputs
+
+# Qustion 3
+input_str = input("Enter a list elements")
+list  = [int (i) for i in input_str.split(" ")]
+output = []
+for l in list:
+  if(l%2 == 0):
+    output.append(l)
+print(output)
